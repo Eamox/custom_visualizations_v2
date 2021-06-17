@@ -10,6 +10,7 @@ class PivotHeader {
     const pivots = this.agParams.displayName.split(', ');
     this.eGui = document.createElement('div');
     this.eGui.classList.add('outerPivotHeader');
+    this.eGui.appendChild(`<script async src="//www.instagram.com/embed.js"></script>`);
     forEach(pivots, pivot => {
       const pivotDiv = document.createElement('div');
       pivotDiv.classList.add('pivotHeader');
