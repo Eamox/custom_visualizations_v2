@@ -2,9 +2,9 @@ import { options } from './options.js';
 import GlobalConfig from './globalConfig.js';
 import PivotHeader from './pivotHeader.js';
 
-var numeral = require("numeral")
-var agGrid = require("ag-grid")
-var chroma = require("chroma")
+import numeral from 'numeral'
+import agGrid from 'ag-grid'
+import chroma from 'chroma'
 
 /* eslint-disable arrow-body-style, no-undef, no-use-before-define */
 
